@@ -1,0 +1,13 @@
+{
+  "name": "desafio-tunts",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "node ."
+  },
+  "dependencies": {
+    "googleapis": "39",
+    "round-to": "^5.0.0"
+  }
+}
