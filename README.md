@@ -3,6 +3,12 @@
 This project was developed for the Tunts challange. The objective of this project was to create a simple nodejs application that connect wiht google sheets api
 and update the informations of a sheet.
 
+# Prerequisites
+
+[Node & NPM](https://nodejs.org/en/)
+
+[Yarn](https://yarnpkg.com/) (Optional)
+
 # Set up
 Clone the project and run the following commands to setup the envirioment. You can use Yarn or NPM
 
