@@ -48,14 +48,14 @@ function updateGrades(auth) {
         } else if(grade > 70) {
           values.push('Aprovado');
           values.push(0);
-          cellValues.push(values)
+          cellValues.push(values);
           return;
         } else {
-          values.push('Exame final')
+          values.push('Exame final');
 
           let naf = roundTo.up((2 * 50) - grade, 2);
 
-          values.push(naf)
+          values.push(naf);
           cellValues.push(values);
         }
       });
@@ -71,7 +71,7 @@ function updateGrades(auth) {
         range: '!G4:H',
         valueInputOption: 'USER_ENTERED',
         resource
-      }
+      };
       
 
       /**
